@@ -55,6 +55,7 @@ public class Client extends Thread {
             DataInputStream input=indexingServer.getDataInputStream();
 
             /* Query the indexing server */
+            System.out.println("Querying the index Server for file : "+fileName);
             output.writeUTF("query");
             String response=input.readUTF();
 
@@ -79,7 +80,7 @@ public class Client extends Thread {
                 return;
             }
 
-            System.out.println("File found in P2P Node with ID "+node.getId());
+            System.out.println("Index Server found file in P2P Node with ID "+node.getId());
             System.out.println("");
             System.out.println("Sending download request for file "+fileName+" to node with ID "+node.getId());
             /* Download the file from the node */
@@ -205,7 +206,7 @@ public class Client extends Thread {
     }
 
     private void downloadSerial(String fileName, String filePath, int fileSize, DataInputStream input)  {
-        System.out.println("Downloading file  : " + fileName + " to directory " + filePath + " of size " + fileSize);
+        System.out.println("Downloading file  : " + fileName + " to directory " + filePath + " of size " + fileSize+" bytes!");
         File file = new File(filePath+"/"+fileName);
         byte[] fileBytes = new byte[fileSize];
 
@@ -217,5 +218,6 @@ public class Client extends Thread {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        System.out.println("\n File "+fileName+" downloaded! \n");
     }
 }

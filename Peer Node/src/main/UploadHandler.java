@@ -8,10 +8,12 @@ public class UploadHandler extends Thread {
 
     P2PNode client;
     Config config;
+    P2P p2p;
 
-    UploadHandler(P2PNode client, Config config) {
+    UploadHandler(P2PNode client, Config config, P2P p2p) {
         this.client=client;
         this.config=config;
+        this.p2p=p2p;
     }
 
     @Override
@@ -29,6 +31,8 @@ public class UploadHandler extends Thread {
             uploadFile(fileName, input, output);
             /* Request has been serviced shutdown the socket */
             client.exit();
+            /* Reduce the client by 1 */
+            p2p.noOfClients--;
             /* Shut down thread - Auto Stop Let java handle it*/
 
         } catch (IOException e) {

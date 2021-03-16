@@ -10,6 +10,7 @@ import java.util.HashMap;
 public class P2P {
 
     int noOfClients=0;
+    static Logger logger;
 
     public static void main(String[] args) {
 
@@ -24,16 +25,17 @@ public class P2P {
         P2P p2p = new P2P();
         /* Read config properties */
         Config config=p2p.readConfigFile();
-        System.out.println("Starting up the P2P Node with ID "+config.getId());
+        /* Create the log files */
+        p2p.createLogFile();
+        logger.serverLog("Starting up the P2P Node with ID "+config.getId());
         IndexingServer indexingServer=p2p.connectToIndexingServer(config);
         p2p.registerFiles(indexingServer, config);
 
         try {
             /* Start server socket */
             ServerSocket serverSocket = new ServerSocket(config.getPeerNodePort());
-            System.out.println("P2P Node started up!");
-            System.out.println("Listening on "+config.getPeerNodePort());
-
+            logger.serverLog("P2P Node started up!");
+            logger.serverLog("Listening on "+config.getPeerNodePort());
 
             /* Client - The client is configured as a thread. */
             new Client(indexingServer, config).start();
@@ -47,13 +49,13 @@ public class P2P {
 
                 /* Read which client is requesting */
                 String clientId=dataInputStream.readUTF();
-                System.out.println("Accepted Client with ID: "+clientId+" ! Total clients! "+p2p.noOfClients);
+                System.out.println("Accepted Client with ID: "+clientId+" ! Total clients! "+(++p2p.noOfClients));
 
                 /* Service the client */
                 String response=dataInputStream.readUTF();
                 if(response.equals("download")) {
                     /* Send socket to upload thread and let it do the rest */
-                    new UploadHandler(new P2PNode(clientId, socket, dataOutputStream, dataInputStream), config).start();
+                    new UploadHandler(new P2PNode(clientId, socket, dataOutputStream, dataInputStream), config, p2p).start();
                 }
 
                 /* Done */
@@ -179,8 +181,23 @@ public class P2P {
         return config;
     }
 
-    /* Create a log file in current directory */
+    /* Create a log file in logs directory */
     private void createLogFile() {
+        String serverLogPath=System.getProperty("user.dir")+"/logs/server.log";
+        String clientLogPath=System.getProperty("user.dir")+"/logs/client.log";
 
+        File serverFile = new File(serverLogPath);
+        File clientFile = new File(clientLogPath);
+
+        try {
+        /* Create the log files if not created */
+            serverFile.createNewFile();
+            clientFile.createNewFile();
+
+            /* Assign logger */
+            logger=new Logger(serverLogPath, clientLogPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
