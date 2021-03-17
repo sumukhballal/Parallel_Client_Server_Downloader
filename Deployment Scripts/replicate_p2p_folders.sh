@@ -16,3 +16,7 @@ cp -r "$input_directory/." "$output"
 # Chnage config properties
 
 sed -i "s/change_port_number/$port_number/g" "$output/resources/config.properties"
+
+# Create a file in the file directory
+
+dd if=/dev/zero of="$output/files/file_$node_number.txt  bs=1000  count=1
