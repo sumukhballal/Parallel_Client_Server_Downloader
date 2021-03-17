@@ -10,4 +10,4 @@ mkdir -p ../Evaluation/Eval1/
 
 ./compile_all.sh "../Evaluation/Eval1"
 
-
+cp -r ./eval1_run.sh ../Evaluation/Eval1/
