@@ -13,11 +13,13 @@ public class Node {
     String ipAddress;
     int portNumber;
     HashSet<String> files;
+    Logger logger;
 
-    protected Node(String clientId, String ipAddress, int portNumber) {
+    protected Node(String clientId, String ipAddress, int portNumber, Logger logger) {
         this.id=clientId;
         this.ipAddress=ipAddress;
         this.portNumber=portNumber;
+        this.logger=logger;
         files=new HashSet<>();
     }
 
@@ -35,7 +37,7 @@ public class Node {
 
             for(String file : fileArray) {
                 files.add(file);
-                System.out.println("Added file: "+file+" to client with ID "+id);
+                logger.serverLog("Added file: "+file+" to client with ID "+id);
             }
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();
@@ -56,7 +58,7 @@ public class Node {
 
             for(String file : fileArray) {
                 files.remove(file);
-                System.out.println("Deleted file: "+file+" from client with ID "+id);
+                logger.serverLog("Deleted file: "+file+" from client with ID "+id);
             }
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();

@@ -19,10 +19,12 @@ public class ClientHandler extends  Thread {
     String clientIpAddress;
     int clientPortNumber;
     String clientId;
+    Logger logger;
 
-    ClientHandler(Socket socket, ConcurrentHashMap<String, Node> nodes) {
+    ClientHandler(Socket socket, ConcurrentHashMap<String, Node> nodes, Logger logger) {
         this.nodes=nodes;
         this.socket=socket;
+        this.logger=logger;
         setDataStreams();
         setClientId();
     }
@@ -42,8 +44,8 @@ public class ClientHandler extends  Thread {
         while(true) {
 
             String command=dataInputStream.readUTF();
-            System.out.println("Connected to client with ID: "+getClientId()+" !");
-            System.out.println("Received command "+command+" from client with ID: "+getClientId());
+            logger.serverLog("Connected to client with ID: "+getClientId()+" !");
+            logger.serverLog("Received command "+command+" from client with ID: "+getClientId());
 
             switch (command) {
 
@@ -66,7 +68,7 @@ public class ClientHandler extends  Thread {
                     exit();
                     break;
                 default:
-                    System.out.println("This option is not available! Exiting! ");
+                    logger.serverLog("This option is not available! Exiting! ");
                     exit();
                     break;
             }
@@ -80,7 +82,7 @@ public class ClientHandler extends  Thread {
     }
 
     private void exit() {
-        System.out.println("Exiting client with ID "+clientId);
+        logger.serverLog("Exiting client with ID "+clientId);
 
         try {
             dataInputStream.close();
@@ -93,13 +95,13 @@ public class ClientHandler extends  Thread {
     }
 
     private void updateFileAdd() {
-        System.out.println("Adding a new file to  client " + clientId + "! ");
+        logger.serverLog("Adding a new file to  client " + clientId + "! ");
 
         if(isRegistered()) {
             done();
         }
         else {
-            System.out.println("Client with ID: "+clientId+" has not been registered before! ");
+            logger.serverLog("Client with ID: "+clientId+" has not been registered before! ");
             error();
         }
 
@@ -109,10 +111,10 @@ public class ClientHandler extends  Thread {
             Node currentNode=nodes.get(clientId);
             boolean result=currentNode.addFiles(fileNames.trim());
             if(result) {
-                System.out.println("Added all files to client with ID: "+clientId);
+                logger.serverLog("Added all files to client with ID: "+clientId);
                 done();
             } else {
-                System.out.println("Unable to add files to client with ID: "+clientId);
+                logger.serverLog("Unable to add files to client with ID: "+clientId);
                 error();
             }
 
@@ -122,13 +124,13 @@ public class ClientHandler extends  Thread {
     }
 
     private void updateFileDelete() {
-        System.out.println("Deleting a file to client " + clientId + "! ");
+        logger.serverLog("Deleting a file to client " + clientId + "! ");
 
         if(isRegistered()) {
             done();
         }
         else {
-            System.out.println("Client with ID: "+clientId+" has not been registered before! ");
+            logger.serverLog("Client with ID: "+clientId+" has not been registered before! ");
             error();
         }
 
@@ -138,10 +140,10 @@ public class ClientHandler extends  Thread {
             Node currentNode=nodes.get(clientId);
             boolean result=currentNode.deleteFiles(fileNames.trim());
             if(result) {
-                System.out.println("Deleted all files to client with ID: "+clientId);
+                logger.serverLog("Deleted all files to client with ID: "+clientId);
                 done();
             } else {
-                System.out.println("Unable to delete files to client with ID: "+clientId);
+                logger.serverLog("Unable to delete files to client with ID: "+clientId);
                 error();
             }
 
@@ -151,13 +153,13 @@ public class ClientHandler extends  Thread {
     }
 
     private void query() {
-        System.out.println("Querying for a file name on all nodes!");
+        logger.serverLog("Querying for a file name on all nodes!");
 
         if(isRegistered()) {
             done();
         }
         else {
-            System.out.println("Client with ID: "+clientId+" has not been registered before! ");
+            logger.serverLog("Client with ID: "+clientId+" has not been registered before! ");
             error();
             return;
         }
@@ -184,29 +186,29 @@ public class ClientHandler extends  Thread {
 
     private void register() {
 
-        System.out.println("Checking if client "+clientId+" has been registered previously!");
+        logger.serverLog("Checking if client "+clientId+" has been registered previously!");
         if(isRegistered()) {
-            System.out.println("Client "+clientId+" has been registered already!");
+            logger.serverLog("Client "+clientId+" has been registered already!");
             done();
             return;
         }
 
-        Node node = new Node(clientId, clientIpAddress, clientPortNumber);
+        Node node = new Node(clientId, clientIpAddress, clientPortNumber, logger);
         nodes.put(clientId, node);
-        System.out.println("Client "+clientId+" has been registered! ");
+        logger.serverLog("Client "+clientId+" has been registered! ");
         done();
     }
 
     private void unregister() {
-        System.out.println("Checking if client "+clientId+" has been registered previously!");
+        logger.serverLog("Checking if client "+clientId+" has been registered previously!");
 
         if(isRegistered()) {
             nodes.remove(clientId);
-            System.out.println("Client "+clientId+" has been unregistered!");
+            logger.serverLog("Client "+clientId+" has been unregistered!");
             return;
         }
 
-        System.out.println("Client "+clientId+" was not registered previously! ");
+        logger.serverLog("Client "+clientId+" was not registered previously! ");
     }
 
     private void setDataStreams() {

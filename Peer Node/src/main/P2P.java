@@ -38,7 +38,7 @@ public class P2P {
             logger.serverLog("Listening on "+config.getPeerNodePort());
 
             /* Client - The client is configured as a thread. */
-            new Client(indexingServer, config).start();
+            new Client(indexingServer, config, args, logger).start();
 
             /* This is the server */
             while(true) {

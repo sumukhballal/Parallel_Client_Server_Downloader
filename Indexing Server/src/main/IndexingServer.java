@@ -1,6 +1,7 @@
 package main;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -10,6 +11,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class IndexingServer {
 
+
+    static Logger logger;
 
     public static void main(String[] args) {
 
@@ -26,6 +29,7 @@ public class IndexingServer {
 
         IndexingServer indexingServer = new IndexingServer();
         Config config=indexingServer.readConfigFile();
+        indexingServer.createLogFile();
         /* A hashmap of Client ID , Node object */
         ConcurrentHashMap<String, Node> nodes=new ConcurrentHashMap<>();
 
@@ -33,18 +37,18 @@ public class IndexingServer {
 
             ServerSocket serverSocket = new ServerSocket(config.getIndexingNodePort());
             int totalRequests=0;
-            System.out.println("Started Indexing server!");
-            System.out.println("Listening on port "+config.getIndexingNodePort());
+            logger.serverLog("Started Indexing server!");
+            logger.serverLog("Listening on port "+config.getIndexingNodePort());
             /* Infinite Loop which listens to sockets */
             while(true) {
                 totalRequests+=1;
                 Socket socket = serverSocket.accept();
-                new ClientHandler(socket, nodes).start();
-                System.out.println("Accepted a request!"+" Number of Requests: "+totalRequests);
+                new ClientHandler(socket, nodes, logger).start();
+                logger.serverLog("Accepted a request!"+" Number of Requests: "+totalRequests);
             }
         } catch (IOException e ){
             e.printStackTrace();
-            System.out.println("IOException has been caused in the indexing server! ");
+            logger.serverLog("IOException has been caused in the indexing server! ");
         }
     }
 
@@ -77,5 +81,20 @@ public class IndexingServer {
                 configProperties.get("indexing_server_ip"));
 
         return config;
+    }
+
+    private void createLogFile() {
+        String serverLogPath=System.getProperty("user.dir")+"/logs/server.log";
+
+        File serverFile = new File(serverLogPath);
+        try {
+            /* Create the log files if not created */
+            serverFile.createNewFile();
+
+            /* Assign logger */
+            logger=new Logger(serverLogPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

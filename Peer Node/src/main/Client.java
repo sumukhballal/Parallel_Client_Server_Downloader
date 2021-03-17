@@ -13,11 +13,15 @@ public class Client extends Thread {
     IndexingServer indexingServer;
     Config config;
     String clientId;
+    String[] args;
+    Logger logger;
 
-    Client(IndexingServer indexingServer, Config config) {
+    Client(IndexingServer indexingServer, Config config, String[] args, Logger logger) {
         this.indexingServer=indexingServer;
         this.config=config;
         this.clientId=setClientId();
+        this.args=args;
+        this.logger=logger;
     }
 
     /* As a client we should be able to send a download request for a certain file
@@ -28,21 +32,46 @@ public class Client extends Thread {
     @Override
     public void run() {
 
-        Scanner scanner = new Scanner(System.in);
+        /* Based on the args we can run this using scanner or not */
 
-        while(true) {
-            System.out.println("\n \n Choose your operation! \n 1.) Download a file \n > \n");
-            Integer input=Integer.parseInt(scanner.next());
+        if(args.length==0) {
+            Scanner scanner = new Scanner(System.in);
 
-            switch (input) {
-                case 1:
-                    System.out.println("Enter File Name! \n >");
-                    String fileName=scanner.next();
-                    downloadFile(fileName);
-                    break;
-                default:
-                    System.out.println("Not a valid option! ");
+            while (true) {
+                System.out.println("\n \n Choose your operation! \n 1.) Download a file \n > \n");
+                Integer input = Integer.parseInt(scanner.next());
+
+                switch (input) {
+                    case 1:
+                        System.out.println("Enter File Name! \n >");
+                        String fileName = scanner.next();
+                        downloadFile(fileName);
+                        break;
+                    default:
+                        System.out.println("Not a valid option! ");
+                }
             }
+        } else {
+
+            String clientMode=args[0];
+
+            /* Evaluation 2 */
+            if(clientMode.equals("2")) {
+                int numberOfRequests=Integer.parseInt(args[1]);
+                String fileName=args[2];
+
+                while(numberOfRequests!=0) {
+                    downloadFile(fileName);
+                    numberOfRequests--;
+                }
+            }
+
+            /* Evaluation 3 */
+            if(clientMode.equals("3")) {
+
+            }
+
+
         }
     }
 
@@ -56,6 +85,9 @@ public class Client extends Thread {
 
             /* Query the indexing server */
             System.out.println("Querying the index Server for file : "+fileName);
+
+            /* Calculate response time for query to Indexing server */
+            long startTime=System.nanoTime();
             output.writeUTF("query");
             String response=input.readUTF();
 
@@ -68,6 +100,10 @@ public class Client extends Thread {
             output.writeUTF(fileName);
             String nodeListWithFile=input.readUTF();
             response=input.readUTF();
+            /* Received a response so calculate response time here */
+            long elapsedTime=System.nanoTime() - startTime;
+
+            logger.clientLog("avg_response_time: It took "+elapsedTime+" Nanoseconds to get a response from the Indexing Server!");
 
             if(response.equals("error")) {
                 System.out.println("Client is unable to download a file because indexing server threw an error during query! ");
@@ -98,6 +134,7 @@ public class Client extends Thread {
         DataInputStream input = node.getDataInputStream();
         try {
             /* Send the ID first */
+            long startTime=System.nanoTime();
             output.writeUTF(clientId);
              /* Send the request */
             output.writeUTF("download");
@@ -107,6 +144,9 @@ public class Client extends Thread {
             int fileSize=Integer.parseInt(input.readUTF());
             /* Download the file serially */
             downloadSerial(fileName, config.getHostFilePath(), fileSize, input);
+            /* Received a response so calculate response time here */
+            long elapsedTime=System.nanoTime() - startTime;
+            logger.clientLog("avg_download_time: It took "+elapsedTime+" Nanoseconds to get download a file "+fileName+" of size "+fileSize+" !");
             /* Let indexing server know */
             informIndexingServer(true, fileName);
 
