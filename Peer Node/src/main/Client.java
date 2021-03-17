@@ -54,6 +54,13 @@ public class Client extends Thread {
 
             String clientMode=args[0];
 
+            /* Evaluation 1 */
+            if(clientMode.equals("1")) {
+                String fileName=args[1];
+                downloadFile(fileName);
+
+            }
+
             /* Evaluation 2 */
             if(clientMode.equals("2")) {
                 int numberOfRequests=Integer.parseInt(args[1]);
@@ -67,7 +74,9 @@ public class Client extends Thread {
 
             /* Evaluation 3 */
             if(clientMode.equals("3")) {
-
+                int numberOfTimes=Integer.parseInt(args[1]);
+                String fileName=args[2];
+                downloadFile(fileName);
             }
 
 
