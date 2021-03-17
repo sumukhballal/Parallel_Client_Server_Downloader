@@ -105,6 +105,11 @@ public class P2P {
 
             String hostFilesDirectory=config.getHostFilePath();
             File hostFilesFolder = new File(hostFilesDirectory);
+
+            if(hostFilesFolder==null){
+                System.out.println("The firectory is null");
+            }
+
             StringBuilder resultFiles = new StringBuilder();
 
             for(File file : hostFilesFolder.listFiles()) {
