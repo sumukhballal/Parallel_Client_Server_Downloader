@@ -56,6 +56,14 @@ public class Client extends Thread {
 
             /* Evaluation 1 */
             if(clientMode.equals("1")) {
+
+                /* Wait for other processes to start */
+                try {
+                    Thread.sleep(3 * 1000);
+                } catch (InterruptedException ie) {
+                    Thread.currentThread().interrupt();
+                }
+
                 String fileName=args[1];
                 downloadFile(fileName);
 
