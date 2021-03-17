@@ -40,7 +40,7 @@ public class Logger {
         System.out.println(data);
         try {
 
-            FileWriter clientFileWriter=new FileWriter(serverFile, true);
+            FileWriter clientFileWriter=new FileWriter(clientFile, true);
             clientFileWriter.write(data);
             clientFileWriter.write(System.lineSeparator());
             clientFileWriter.flush();

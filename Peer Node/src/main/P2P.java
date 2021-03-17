@@ -49,7 +49,7 @@ public class P2P {
 
                 /* Read which client is requesting */
                 String clientId=dataInputStream.readUTF();
-                System.out.println("Accepted Client with ID: "+clientId+" ! Total clients! "+(++p2p.noOfClients));
+                logger.serverLog("Accepted Client with ID: "+clientId+" ! Total clients! "+(++p2p.noOfClients));
 
                 /* Service the client */
                 String response=dataInputStream.readUTF();
