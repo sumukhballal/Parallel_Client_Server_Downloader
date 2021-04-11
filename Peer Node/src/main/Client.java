@@ -202,7 +202,7 @@ public class Client extends Thread {
 
                 /* Write to output file */
 
-                writeToOutputFile(fileChunkHashMap);
+                writeToOutputFile(fileChunkHashMap, fileName, filesize);
 
             }
 
@@ -221,23 +221,32 @@ public class Client extends Thread {
         }
     }
 
-    private void writeToOutputFile(HashMap<Integer, FileChunk> fileChunkHashMap) {
+    private void writeToOutputFile(HashMap<Integer, FileChunk> fileChunkHashMap, String filename, int filesize) {
 
         logger.clientLog("File chunks have been downloaded!" );
-        logger.clientLog("Recreating file from chunks! ");
+        logger.clientLog("Recreating file "+filename+" from chunks! ");
 
-        
+        File file = new File(config.getHostFilePath()+"/"+filename);
+        try {
+            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(file, true));
 
-        for(Integer key : fileChunkHashMap.keySet()) {
+            for (Integer key : fileChunkHashMap.keySet()) {
 
+                FileChunk fileChunk = fileChunkHashMap.get(key);
+                logger.clientLog("Writing chunk : "+fileChunk.getChunkId());
+                bufferedOutputStream.write(fileChunk.getFileData(), 0, fileChunk.getFileData().length);
+            }
 
-            FileChunk fileChunk = fileChunkHashMap.get(key);
-
+            bufferedOutputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
+        logger.clientLog("File has been downloaded! ");
     }
 
     private boolean checkMd5Checksum(String filename, String hostMd5Checksum) {
-
+        return true;
     }
 
     /* Inform the indexing server a file has been added/deleted from Server */
