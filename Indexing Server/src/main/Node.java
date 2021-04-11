@@ -44,14 +44,14 @@ public class Node {
         return true;
     }
 
-    protected boolean deleteFiles(FileDescription file) {
+    protected boolean deleteFiles(String filename) {
 
-        if(file==null)
+        if(filename==null)
             return false;
 
         try {
-            files.remove(file.getFileName());
-            logger.serverLog("Deleted file: "+file+" to client with ID : "+id);
+            files.remove(filename);
+            logger.serverLog("Deleted file: "+filename+" to client with ID : "+id);
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();
             logger.serverLog("Unable to add files since two or more threads are accessing the file hashset! ");
