@@ -134,10 +134,10 @@ public class Client extends Thread {
 
             /* Get number of nodes we can parallely download from */
             String[] nodeListWithFileDescriptionArray = nodeListWithFileDescription.split(";");
-            int numberOfNodes=nodeListWithFileDescriptionArray[0].split(":").length;
+            int numberOfNodes=nodeListWithFileDescriptionArray[0].split(",").length;
             int filesize=Integer.parseInt(nodeListWithFileDescriptionArray[1]);
             String md5Checksum=nodeListWithFileDescriptionArray[2];
-            String[] nodeArray=nodeListWithFileDescriptionArray[0].split(":");
+            String[] nodeArray=nodeListWithFileDescriptionArray[0].split(",");
 
             logger.clientLog("Node array got from Indexing server is as follows : "+nodeArray.toString());
 

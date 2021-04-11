@@ -182,7 +182,7 @@ public class ClientHandler extends  Thread {
 
                     FileDescription fileDescription = currentNode.files.get(fileName);
                     result.append(currentNode.getId());
-                    result.append(":");
+                    result.append(",");
                     size=fileDescription.getSize();
                     md5=fileDescription.getMd5();
                 }
