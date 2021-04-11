@@ -363,9 +363,12 @@ public class Client extends Thread {
         File file = new File(filePath+"/"+fileName);
         byte[] fileBytes = new byte[fileSize];
 
+        logger.clientLog("Client file buffer size : "+fileBytes.length);
+
             try {
                 BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(file));
-                int bytesRead = input.read(fileBytes, 0, fileBytes.length);
+                int bytesRead = input.read(fileBytes, 0, fileSize);
+                logger.clientLog("Client file buffer size : "+fileBytes.length);
                 bufferedOutputStream.write(fileBytes, 0, bytesRead);
                 bufferedOutputStream.close();
             } catch (IOException e) {

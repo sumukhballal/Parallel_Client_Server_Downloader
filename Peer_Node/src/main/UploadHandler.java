@@ -61,27 +61,30 @@ public class UploadHandler extends Thread {
             /* Reduce the client by 1 */
             p2p.noOfClients--;
             /* Shut down thread - Auto Stop Let java handle it*/
-
+            logger.serverLog("--------------------------------------------------------------");
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+          client.exit();
         }
-        logger.serverLog("--------------------------------------------------------------");
+
     }
 
     private void uploadFile(String fileName, DataInputStream input, DataOutputStream output) {
         String folderPath=config.getHostFilePath();
         File file = new File(folderPath+"/"+fileName);
         byte[] fileBytes = new byte[(int) file.length()];
+        logger.serverLog("Writing to client buffer "+fileBytes.length+" bytes! ");
 
         try {
 
             /* Load into buffered input stream */
             BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(file));
             bufferedInputStream.read(fileBytes, 0, fileBytes.length);
-            bufferedInputStream.close();
             /* Write to client socket */
             output.write(fileBytes, 0, fileBytes.length);
             output.flush();
+            bufferedInputStream.close();
             System.out.println("Uploaded file "+fileName+" to client with ID: "+client.getId());
         } catch (IOException e) {
             e.printStackTrace();
