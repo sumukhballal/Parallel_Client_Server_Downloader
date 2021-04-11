@@ -127,7 +127,7 @@ public class P2P {
                     resultFiles.append(file.length());
                     resultFiles.append(":");
                     /* Get MD5 of file */
-                    String md5checkSum=getMD5Checksum(MessageDigest.getInstance("MD5"), config.getHostFilePath()+"/"+file);
+                    String md5checkSum=getMD5Checksum(MessageDigest.getInstance("MD5"), file.getPath());
                     /* Send MD5 checksum */
                     resultFiles.append(md5checkSum);
                     resultFiles.append(",");
