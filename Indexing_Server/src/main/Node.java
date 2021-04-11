@@ -34,7 +34,7 @@ public class Node {
 
         try {
                 files.put(file.getFileName(), file);
-                logger.serverLog("Added file: "+file+" to client with ID : "+id);
+                logger.serverLog("Added file: "+file.getFileName()+" to client with ID : "+id);
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();
             logger.serverLog("Unable to add files since two or more threads are accessing the file hashset! ");

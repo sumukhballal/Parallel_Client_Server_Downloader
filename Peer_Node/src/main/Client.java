@@ -139,6 +139,8 @@ public class Client extends Thread {
             String md5Checksum=nodeListWithFileDescriptionArray[2];
             String[] nodeArray=nodeListWithFileDescriptionArray[0].split(":");
 
+            logger.clientLog("Node array got from Indexing server is as follows : "+nodeArray.toString());
+
             if(numberOfNodes==1 || filesize <= CHUNK_SIZE) {
 
                 logger.clientLog("Downloading file in whole! ");
@@ -184,7 +186,8 @@ public class Client extends Thread {
                 for(int i=0;i<numberOfChunks;i++) {
 
                     if(i%chunkThreshold==0 && k<numberOfNodes) {
-                        node=getNodeObject(nodeArray[k++]);
+                        node=getNodeObject(nodeArray[k]);
+                        k++;
                     }
 
                     if(i==numberOfChunks-1)
@@ -287,6 +290,8 @@ public class Client extends Thread {
     }
 
     private P2PNode getNodeObject(String nodeId) {
+
+        logger.clientLog("Getting object for node with ID : "+nodeId);
 
         try {
             String nodeIP=nodeId.split(":")[0];
