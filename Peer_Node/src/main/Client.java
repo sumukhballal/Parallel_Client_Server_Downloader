@@ -3,6 +3,9 @@ package main;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.security.DigestInputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
@@ -272,7 +275,20 @@ public class Client extends Thread {
                 return;
             }
 
-            indexingServerOutput.writeUTF(fileName);
+            File file = new File(config.getHostFilePath()+"/"+fileName);
+            StringBuilder resultFile=new StringBuilder();
+            resultFile.append(file.getName());
+            resultFile.append(":");
+            /* Send File size */
+            resultFile.append(file.length());
+            resultFile.append(":");
+            /* Get MD5 of file */
+            String md5checkSum=getMD5Checksum(MessageDigest.getInstance("MD5"), file.getPath());
+            /* Send MD5 checksum */
+            resultFile.append(md5checkSum);
+
+            /* Write to output */
+            indexingServerOutput.writeUTF(resultFile.toString());
             response=indexingServerInput.readUTF();
 
             if(response.equals("error")) {
@@ -284,9 +300,30 @@ public class Client extends Thread {
             logger.clientLog("File "+fileName+" has been added to the indexing server! ");
 
 
-        } catch (IOException e) {
+        } catch (IOException | NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
+    }
+
+    private String getMD5Checksum(MessageDigest messageDigest, String filePath) throws IOException {
+
+        StringBuilder md5Hash = new StringBuilder();
+
+        try(DigestInputStream dis = new DigestInputStream(new FileInputStream(filePath), messageDigest)) {
+
+            while(dis.read() != -1) {
+                messageDigest=dis.getMessageDigest();
+            }
+        } catch(IOException e) {
+            logger.serverLog("Something when wrong when calculating the md5 hash! ");
+            e.printStackTrace();
+        }
+
+        for( byte b : messageDigest.digest()) {
+            md5Hash.append(String.format("%02x",b));
+        }
+
+        return md5Hash.toString();
     }
 
     private P2PNode getNodeObject(String nodeId) {
