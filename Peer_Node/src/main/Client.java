@@ -362,14 +362,34 @@ public class Client extends Thread {
         logger.clientLog("Downloading file  : " + fileName + " to directory " + filePath + " of size " + fileSize+" bytes!");
         File file = new File(filePath+"/"+fileName);
         byte[] fileBytes = new byte[fileSize];
-
-        logger.clientLog("Client file buffer size : "+fileBytes.length);
+        int maxSizeBuffer=10000;
 
             try {
                 BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(file));
-                int bytesRead = input.read(fileBytes, 0, fileSize);
-                logger.clientLog("Client file buffer size : "+fileBytes.length);
-                bufferedOutputStream.write(fileBytes, 0, bytesRead);
+                int totalBytesRead=0;
+
+                if(fileSize>maxSizeBuffer) {
+                    int numDivisions=fileSize/maxSizeBuffer;
+                    int extraData=fileSize%maxSizeBuffer;
+                    int offset=0;
+
+
+                    while(numDivisions!=0) {
+                        totalBytesRead+=input.read(fileBytes, offset, maxSizeBuffer);
+                        offset+=maxSizeBuffer;
+                        numDivisions--;
+                    }
+
+                    /* Any remaining data should be read from buffer */
+                    if(extraData > 0) {
+                        totalBytesRead += input.read(fileBytes, offset, extraData);
+                    }
+                    
+                    logger.clientLog("Bytes read : " + totalBytesRead);
+                } else {
+                    totalBytesRead+=input.read(fileBytes, 0, fileSize);
+                }
+                bufferedOutputStream.write(fileBytes, 0, totalBytesRead);
                 bufferedOutputStream.close();
             } catch (IOException e) {
                 e.printStackTrace();

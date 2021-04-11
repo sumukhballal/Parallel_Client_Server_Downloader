@@ -73,20 +73,45 @@ public class UploadHandler extends Thread {
     private void uploadFile(String fileName, DataInputStream input, DataOutputStream output) {
         String folderPath=config.getHostFilePath();
         File file = new File(folderPath+"/"+fileName);
-        byte[] fileBytes = new byte[(int) file.length()];
-        logger.serverLog("Writing to client buffer "+fileBytes.length+" bytes! ");
+
+        int size=(int)file.length();
+        int maxSizeBuffer=10000;
+        BufferedInputStream bufferedInputStream=null;
 
         try {
-
             /* Load into buffered input stream */
-            BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(file));
+            byte[] fileBytes = new byte[size];
+            bufferedInputStream = new BufferedInputStream(new FileInputStream(file));
             bufferedInputStream.read(fileBytes, 0, fileBytes.length);
-            /* Write to client socket */
-            output.write(fileBytes, 0, fileBytes.length);
-            output.flush();
             bufferedInputStream.close();
-            System.out.println("Uploaded file "+fileName+" to client with ID: "+client.getId());
-        } catch (IOException e) {
+
+            if(size>maxSizeBuffer) {
+
+                int numDivisions=size/maxSizeBuffer;
+                int extraData=size%maxSizeBuffer;
+                int offset=0;
+
+                while(numDivisions!=0) {
+                    output.write(fileBytes, offset, maxSizeBuffer);
+                    output.flush();
+                    offset+=maxSizeBuffer;
+                    numDivisions--;
+                }
+
+                /* Write any extra data thats there */
+                if(extraData > 0) {
+                    output.write(fileBytes, offset, extraData);
+                    output.flush();
+                }
+
+            } else {
+                output.write(fileBytes, 0, fileBytes.length);
+                output.flush();
+            }
+
+            logger.serverLog("Uploaded file " + fileName + " to client with ID: " + client.getId());
+
+        } catch (IOException e ) {
             e.printStackTrace();
         }
     }
