@@ -19,4 +19,4 @@ sed -i "s/change_port_number/$port_number/g" "$output/resources/config.propertie
 
 # Create a file in the file directory
 
-dd if=/dev/zero of="$output/files/file_$node_number.txt"  bs=1000  count=1
+dd if=/dev/zero of="$output/files/file_$node_number.txt"  bs=128000  count=1
