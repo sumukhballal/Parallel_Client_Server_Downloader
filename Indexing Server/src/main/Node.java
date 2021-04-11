@@ -1,7 +1,7 @@
 package main;
 
 import java.util.ConcurrentModificationException;
-import java.util.HashSet;
+import java.util.HashMap;
 
 public class Node {
 
@@ -12,7 +12,7 @@ public class Node {
     String id;
     String ipAddress;
     int portNumber;
-    HashSet<String> files;
+    HashMap<String, FileDescription> files;
     Logger logger;
 
     protected Node(String clientId, String ipAddress, int portNumber, Logger logger) {
@@ -20,49 +20,41 @@ public class Node {
         this.ipAddress=ipAddress;
         this.portNumber=portNumber;
         this.logger=logger;
-        files=new HashSet<>();
+        files=new HashMap<>();
     }
 
     public String getId() {
         return id;
     }
 
-    protected boolean addFiles(String filesToAdd) {
+    protected boolean addFiles(FileDescription file) {
 
-        if(filesToAdd==null)
+        if(file==null)
             return false;
 
         try {
-            String[] fileArray = filesToAdd.trim().split(",");
-
-            for(String file : fileArray) {
-                files.add(file);
-                logger.serverLog("Added file: "+file+" to client with ID "+id);
-            }
+                files.put(file.getFileName(), file);
+                logger.serverLog("Added file: "+file+" to client with ID : "+id);
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();
-            System.out.println("Unable to add files since two or more threads are accessing the file hashset! ");
+            logger.serverLog("Unable to add files since two or more threads are accessing the file hashset! ");
             return false;
         }
 
         return true;
     }
 
-    protected boolean deleteFiles(String filesToDelete) {
+    protected boolean deleteFiles(FileDescription file) {
 
-        if(filesToDelete==null)
+        if(file==null)
             return false;
 
         try {
-            String[] fileArray = filesToDelete.trim().split(",");
-
-            for(String file : fileArray) {
-                files.remove(file);
-                logger.serverLog("Deleted file: "+file+" from client with ID "+id);
-            }
+            files.remove(file.getFileName());
+            logger.serverLog("Deleted file: "+file+" to client with ID : "+id);
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();
-            System.out.println("Unable to delete files since two or more threads are accessing the file hashset! ");
+            logger.serverLog("Unable to add files since two or more threads are accessing the file hashset! ");
             return false;
         }
 

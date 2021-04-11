@@ -103,20 +103,23 @@ public class ClientHandler extends  Thread {
         else {
             logger.serverLog("Client with ID: "+clientId+" has not been registered before! ");
             error();
+            return;
         }
 
         try {
             /* Blocking call to read from all files from client comma separated */
-            String fileNames=dataInputStream.readUTF();
+            String fileDescriptions=dataInputStream.readUTF();
             Node currentNode=nodes.get(clientId);
-            boolean result=currentNode.addFiles(fileNames.trim());
-            if(result) {
-                logger.serverLog("Added all files to client with ID: "+clientId);
-                done();
-            } else {
-                logger.serverLog("Unable to add files to client with ID: "+clientId);
-                error();
+
+            for(String fileDescription : fileDescriptions.split(",")) {
+                String[] fileDescriptingArray=fileDescription.split(":");
+                FileDescription fileDescriptor = new FileDescription(fileDescriptingArray[0], Integer.parseInt(fileDescriptingArray[1]),
+                        fileDescriptingArray[2]);
+                currentNode.addFiles(fileDescriptor);
             }
+
+            logger.serverLog("Added all files to client with ID: "+clientId);
+            done();
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -167,17 +170,40 @@ public class ClientHandler extends  Thread {
         try {
             /* Blocking call to read  client which file needs to be checked */
             String fileName=dataInputStream.readUTF();
-            List<String> peerNodesWithFile=new ArrayList<>();
+            StringBuilder result = new StringBuilder();
+
+            int size=-1;
+            String md5="x";
 
             for(Map.Entry node : nodes.entrySet()) {
-                Node currentNode = (Node)node.getValue();
+                Node currentNode = (Node) node.getValue();
 
-                if(currentNode.files.contains(fileName))
-                    peerNodesWithFile.add(currentNode.getId());
+                if (currentNode.files.containsKey(fileName)) {
+
+                    FileDescription fileDescription = currentNode.files.get(fileName);
+                    result.append(currentNode.getId());
+                    result.append(":");
+                    size=fileDescription.getSize();
+                    md5=fileDescription.getMd5();
+                }
             }
 
-            dataOutputStream.writeUTF(peerNodesWithFile.toString());
-            done();
+            result.deleteCharAt(result.length()-1);
+
+            if(size!=-1 && !md5.equals("x")) {
+                result.append(";");
+                result.append(size);
+                result.append(";");
+                result.append(md5);
+                dataOutputStream.writeUTF(result.toString());
+                done();
+            } else {
+                /* No nodes were found to match the query */
+                dataOutputStream.writeUTF("none");
+                logger.serverLog("No node found matching the query for filename : "+fileName);
+                error();
+            }
+
         } catch (IOException e) {
             e.printStackTrace();
             error();

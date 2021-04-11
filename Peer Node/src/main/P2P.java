@@ -5,6 +5,9 @@ import java.io.*;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.security.DigestInputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 
 public class P2P {
@@ -22,12 +25,17 @@ public class P2P {
         3.)
         * */
 
+        int mode=0;
+        if(args.length!=0) {
+            mode=Integer.parseInt(args[1]);
+        }
+
         P2P p2p = new P2P();
         /* Read config properties */
         Config config=p2p.readConfigFile();
         /* Create the log files */
-        p2p.createLogFile();
-        logger.serverLog("Starting up the P2P Node with ID "+config.getId());
+        p2p.createLogFile(mode);
+        logger.serverLog("Starting up the P2P Node with ID : "+config.getId());
         IndexingServer indexingServer=p2p.connectToIndexingServer(config);
         p2p.registerFiles(indexingServer, config);
 
@@ -55,7 +63,7 @@ public class P2P {
                 String response=dataInputStream.readUTF();
                 if(response.equals("download")) {
                     /* Send socket to upload thread and let it do the rest */
-                    new UploadHandler(new P2PNode(clientId, socket, dataOutputStream, dataInputStream), config, p2p).start();
+                    new UploadHandler(new P2PNode(clientId, socket, dataOutputStream, dataInputStream), config, p2p, logger).start();
                 }
 
                 /* Done */
@@ -83,9 +91,9 @@ public class P2P {
             DataInputStream indexingServerInputStream = new DataInputStream(indexingServerSocket.getInputStream());
             DataOutputStream indexingServerOutputStream = new DataOutputStream(indexingServerSocket.getOutputStream());
             indexingServerOutputStream.writeUTF(Integer.toString(config.getPeerNodePort()));
-            System.out.println("Connected to the Indexing Server! ");
+            logger.serverLog("Connected to the Indexing Server! ");
 
-            indexingServer = new IndexingServer(indexingServerSocket, indexingServerOutputStream, indexingServerInputStream);
+            indexingServer = new IndexingServer(indexingServerIP.toString(), indexingServerPort, indexingServerSocket, indexingServerOutputStream, indexingServerInputStream);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -107,14 +115,22 @@ public class P2P {
             File hostFilesFolder = new File(hostFilesDirectory);
 
             if(hostFilesFolder==null){
-                System.out.println("The firectory is null");
+                logger.serverLog("The file directory does not exist!");
             }
 
             StringBuilder resultFiles = new StringBuilder();
 
             for(File file : hostFilesFolder.listFiles()) {
-                resultFiles.append(file.getName());
-                resultFiles.append(",");
+                    resultFiles.append(file.getName());
+                    resultFiles.append(":");
+                    /* Send File size */
+                    resultFiles.append(file.length());
+                    resultFiles.append(":");
+                    /* Get MD5 of file */
+                    String md5checkSum=getMD5Checksum(MessageDigest.getInstance("MD5"), config.getHostFilePath()+"/"+file);
+                    /* Send MD5 checksum */
+                    resultFiles.append(md5checkSum);
+                    resultFiles.append(",");
             }
 
             if(resultFiles.length() > 0 && resultFiles.charAt(resultFiles.length()-1)==',')
@@ -127,7 +143,7 @@ public class P2P {
             String response = input.readUTF();
 
             if(response.equals("done")) {
-                System.out.println("Successfully registered with Indexing server.");
+                logger.serverLog("Successfully registered with Indexing server ");
             }
 
             /* Register happened successfully */
@@ -139,17 +155,39 @@ public class P2P {
             if(response.equals("done")) {
                 /* Client is registerd, send the files */
                 output.writeUTF(resultFiles.toString());
+                response = input.readUTF();
+
+                if (response.equals("done")) {
+                    logger.serverLog("All files have been regsitered with the Indexing server! ");
+                }
+            } else {
+                logger.serverLog("Client has not been registered with Indexing server before! ");
             }
 
-            response=input.readUTF();
-
-            if(response.equals("done")) {
-                System.out.println("All files have been regsitered with the Indexing server! ");
-            }
-
-        } catch (IOException e) {
+        } catch (IOException | NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
+    }
+
+    private String getMD5Checksum(MessageDigest messageDigest, String filePath) throws IOException {
+
+        StringBuilder md5Hash = new StringBuilder();
+
+        try(DigestInputStream dis = new DigestInputStream(new FileInputStream(filePath), messageDigest)) {
+
+            while(dis.read() != -1) {
+                messageDigest=dis.getMessageDigest();
+            }
+        } catch(IOException e) {
+            logger.serverLog("Something when wrong when calculating the md5 hash! ");
+            e.printStackTrace();
+        }
+
+        for( byte b : messageDigest.digest()) {
+            md5Hash.append(String.format("%02x",b));
+        }
+
+        return md5Hash.toString();
     }
 
     /* Read config file */
@@ -187,7 +225,7 @@ public class P2P {
     }
 
     /* Create a log file in logs directory */
-    private void createLogFile() {
+    private void createLogFile(int mode) {
         String serverLogPath=System.getProperty("user.dir")+"/logs/server.log";
         String clientLogPath=System.getProperty("user.dir")+"/logs/client.log";
 
@@ -200,7 +238,7 @@ public class P2P {
             clientFile.createNewFile();
 
             /* Assign logger */
-            logger=new Logger(serverLogPath, clientLogPath);
+            logger=new Logger(serverLogPath, clientLogPath, mode);
         } catch (IOException e) {
             e.printStackTrace();
         }

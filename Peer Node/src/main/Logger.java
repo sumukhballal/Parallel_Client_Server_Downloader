@@ -12,17 +12,19 @@ public class Logger {
 
     String serverFile;
     String clientFile;
+    int mode=0;
 
-    Logger(String serverFile, String clientFile) {
-        this.serverFile=serverFile;
-        this.clientFile=clientFile;
-
-        // createFileWriters(serverFile, clientFile);
+    Logger(String serverFile, String clientFile, int mode) {
+        this.serverFile = serverFile;
+        this.clientFile = clientFile;
+        this.mode=mode;
     }
 
-
     public void serverLog(String data) {
-        System.out.println(data);
+
+        if(mode==0)
+            System.out.println(data);
+
         try {
 
             FileWriter serverFileWriter=new FileWriter(serverFile, true);
@@ -37,7 +39,8 @@ public class Logger {
     }
 
     public void clientLog(String data) {
-        System.out.println(data);
+        if(mode==0)
+            System.out.println(data);
         try {
 
             FileWriter clientFileWriter=new FileWriter(clientFile, true);
@@ -50,24 +53,4 @@ public class Logger {
             e.printStackTrace();
         }
     }
-
-//    private void createFileWriters(String serverFile, String clientFile) {
-//        try {
-//
-//            serverFileWriter = new FileWriter(serverFile, true);
-//            clientFileWriter = new FileWriter(clientFile, true);
-//            //bufferedServerWriter = new BufferedWriter(serverFileWriter);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
-//    private void writeToLog() {
-//        try {
-//            //bufferedServerWriter.close();
-//            serverFileWriter.close();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }
