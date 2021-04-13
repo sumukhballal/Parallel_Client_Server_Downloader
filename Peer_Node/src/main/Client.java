@@ -172,7 +172,7 @@ public class Client extends Thread {
                 downloadSerial(fileName, config.getHostFilePath(), filesize, input);
                 /* Received a response so calculate response time here */
                 long elapsedTime=System.nanoTime() - startTime;
-                logger.clientLog("avg_download_time: It took "+elapsedTime+" Nanoseconds to get download a file "+fileName+" of size "+filesize+" !");
+                logger.clientLog("avg_download_time: It took "+elapsedTime/100000+" MilliSeconds to get download a file "+fileName+" of size "+filesize+" !");
 
                 /* Exit the node once the request has completed */
                 node.exit();
