@@ -151,7 +151,7 @@ public class P2P {
 
             output.writeUTF("update_add");
                 /* Client is registerd, send the files */
-            if(resultFiles.length()!=0) {
+            if(resultFiles.length()==0) {
                 output.writeUTF("empty");
             } else {
                 output.writeUTF(resultFiles.toString());

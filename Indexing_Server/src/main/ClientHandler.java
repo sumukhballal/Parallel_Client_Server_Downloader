@@ -110,7 +110,7 @@ public class ClientHandler extends  Thread {
             /* Blocking call to read from all files from client comma separated */
             String fileDescriptions=dataInputStream.readUTF();
 
-            if(!fileDescriptions.equals("empty")) {
+            if(fileDescriptions!=null && !fileDescriptions.equals("empty") || fileDescriptions.split(",").length > 0) {
                 Node currentNode = nodes.get(clientId);
 
                 for (String fileDescription : fileDescriptions.split(",")) {
@@ -119,9 +119,9 @@ public class ClientHandler extends  Thread {
                             fileDescriptingArray[2]);
                     currentNode.addFiles(fileDescriptor);
                 }
-
-                logger.serverLog("Added all files to client with ID: " + clientId);
             }
+
+            logger.serverLog("Added all files to client with ID: " + clientId);
             done();
 
         } catch (IOException e) {
