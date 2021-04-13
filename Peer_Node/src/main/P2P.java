@@ -150,21 +150,18 @@ public class P2P {
             /* Register the files with the server */
 
             output.writeUTF("update_add");
-            response=input.readUTF();
-
-            if(response.equals("done")) {
                 /* Client is registerd, send the files */
-                if(resultFiles.length()!=0) {
-                    output.writeUTF("empty");
-                } else {
-                    output.writeUTF(resultFiles.toString());
-                }
-                response = input.readUTF();
-
-                if (response.equals("done")) {
-                    logger.serverLog("All files have been regsitered with the Indexing server! ");
-                }
+            if(resultFiles.length()!=0) {
+                output.writeUTF("empty");
             } else {
+                output.writeUTF(resultFiles.toString());
+            }
+            response = input.readUTF();
+
+            if (response.equals("done")) {
+                logger.serverLog("All files have been regsitered with the Indexing server! ");
+            }
+            else {
                 logger.serverLog("Client has not been registered with Indexing server before! ");
             }
 

@@ -97,14 +97,14 @@ public class ClientHandler extends  Thread {
     private void updateFileAdd() {
         logger.serverLog("Adding a new file to  client " + clientId + "! ");
 
-        if(isRegistered()) {
-            done();
-        }
-        else {
-            logger.serverLog("Client with ID: "+clientId+" has not been registered before! ");
-            error();
-            return;
-        }
+//        if(isRegistered()) {
+//            done();
+//        }
+//        else {
+//            logger.serverLog("Client with ID: "+clientId+" has not been registered before! ");
+//            error();
+//            return;
+//        }
 
         try {
             /* Blocking call to read from all files from client comma separated */
@@ -159,7 +159,7 @@ public class ClientHandler extends  Thread {
     }
 
     private void query() {
-        logger.serverLog("Querying for a file name on all nodes!");
+        logger.serverLog("Querying for a file on all nodes!");
 
         if(isRegistered()) {
             done();
@@ -174,7 +174,7 @@ public class ClientHandler extends  Thread {
             /* Blocking call to read  client which file needs to be checked */
             String fileName=dataInputStream.readUTF();
             StringBuilder result = new StringBuilder();
-
+            logger.serverLog("Querying for a file : "+fileName+" on all nodes! ");
             int size=-1;
             String md5="x";
 
@@ -191,7 +191,8 @@ public class ClientHandler extends  Thread {
                 }
             }
 
-            result.deleteCharAt(result.length()-1);
+            if(result.length()>0)
+                result.deleteCharAt(result.length()-1);
 
             if(size!=-1 && !md5.equals("x")) {
                 result.append(";");
