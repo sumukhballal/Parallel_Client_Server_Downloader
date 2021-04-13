@@ -193,6 +193,8 @@ public class Client extends Thread {
                 int chunkSize=CHUNK_SIZE;
 
                 HashMap<Integer, FileChunk> fileChunkHashMap=new HashMap<Integer, FileChunk>();
+
+                long startTime=System.nanoTime();
                 for(int i=0;i<numberOfChunks;i++) {
 
                     if(i==numberOfChunks-1)
@@ -216,6 +218,8 @@ public class Client extends Thread {
                 /* Write to output file */
 
                 writeToOutputFile(fileChunkHashMap, fileName, filesize);
+                long elapsedTime=System.nanoTime() - startTime;
+                logger.clientLog("avg_download_time: It took "+elapsedTime/100000+" Milli Seconds to get download a file "+fileName+" of size "+filesize+"!");
 
             }
 
