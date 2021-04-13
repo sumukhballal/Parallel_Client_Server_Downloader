@@ -109,12 +109,12 @@ public class ClientHandler extends  Thread {
         try {
             /* Blocking call to read from all files from client comma separated */
             String fileDescriptions=dataInputStream.readUTF();
+            logger.serverLog("File description received from client "+clientId+" : "+fileDescriptions);
 
             if(fileDescriptions!=null && !fileDescriptions.equals("empty") || fileDescriptions.split(",").length > 0) {
                 Node currentNode = nodes.get(clientId);
 
-                for (String fileDescription : fileDescriptions.split(",")) {
-                    logger.serverLog("File description received from client "+clientId+" : "+fileDescription);
+                for (String fileDescription : fileDescriptions.split(",")) { ;
                     String[] fileDescriptingArray = fileDescription.split(":");
 
                     FileDescription fileDescriptor = new FileDescription(fileDescriptingArray[0], Integer.parseInt(fileDescriptingArray[1]),
