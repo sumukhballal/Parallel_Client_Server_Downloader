@@ -154,7 +154,11 @@ public class P2P {
 
             if(response.equals("done")) {
                 /* Client is registerd, send the files */
-                output.writeUTF(resultFiles.toString());
+                if(resultFiles.length()!=0) {
+                    output.writeUTF("empty");
+                } else {
+                    output.writeUTF(resultFiles.toString());
+                }
                 response = input.readUTF();
 
                 if (response.equals("done")) {

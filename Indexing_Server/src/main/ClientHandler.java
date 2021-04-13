@@ -109,16 +109,19 @@ public class ClientHandler extends  Thread {
         try {
             /* Blocking call to read from all files from client comma separated */
             String fileDescriptions=dataInputStream.readUTF();
-            Node currentNode=nodes.get(clientId);
 
-            for(String fileDescription : fileDescriptions.split(",")) {
-                String[] fileDescriptingArray=fileDescription.split(":");
-                FileDescription fileDescriptor = new FileDescription(fileDescriptingArray[0], Integer.parseInt(fileDescriptingArray[1]),
-                        fileDescriptingArray[2]);
-                currentNode.addFiles(fileDescriptor);
+            if(!fileDescriptions.equals("empty")) {
+                Node currentNode = nodes.get(clientId);
+
+                for (String fileDescription : fileDescriptions.split(",")) {
+                    String[] fileDescriptingArray = fileDescription.split(":");
+                    FileDescription fileDescriptor = new FileDescription(fileDescriptingArray[0], Integer.parseInt(fileDescriptingArray[1]),
+                            fileDescriptingArray[2]);
+                    currentNode.addFiles(fileDescriptor);
+                }
+
+                logger.serverLog("Added all files to client with ID: " + clientId);
             }
-
-            logger.serverLog("Added all files to client with ID: "+clientId);
             done();
 
         } catch (IOException e) {
