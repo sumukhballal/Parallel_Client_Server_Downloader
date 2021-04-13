@@ -61,6 +61,10 @@ public class Client extends Thread {
 
             String clientMode=args[0];
 
+            if(clientMode.equals("0")) {
+                logger.clientLog("Client mode in DND. So client will shut down as no action needed! But the server is still up! ");
+            }
+
             /* Evaluation 1 */
             if(clientMode.equals("1")) {
 
