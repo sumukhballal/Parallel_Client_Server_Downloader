@@ -114,7 +114,9 @@ public class ClientHandler extends  Thread {
                 Node currentNode = nodes.get(clientId);
 
                 for (String fileDescription : fileDescriptions.split(",")) {
+                    logger.serverLog("File description received from client "+clientId+" : "+fileDescription);
                     String[] fileDescriptingArray = fileDescription.split(":");
+
                     FileDescription fileDescriptor = new FileDescription(fileDescriptingArray[0], Integer.parseInt(fileDescriptingArray[1]),
                             fileDescriptingArray[2]);
                     currentNode.addFiles(fileDescriptor);
