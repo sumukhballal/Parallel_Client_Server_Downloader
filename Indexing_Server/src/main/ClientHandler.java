@@ -44,7 +44,6 @@ public class ClientHandler extends  Thread {
         while(true) {
 
             String command=dataInputStream.readUTF();
-            logger.serverLog("Connected to client with ID: "+getClientId()+" !");
             logger.serverLog("Received command "+command+" from client with ID: "+getClientId());
 
             switch (command) {

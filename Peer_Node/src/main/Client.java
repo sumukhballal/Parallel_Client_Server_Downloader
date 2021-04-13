@@ -149,8 +149,6 @@ public class Client extends Thread {
             String md5Checksum=nodeListWithFileDescriptionArray[2];
             String[] nodeArray=nodeListWithFileDescriptionArray[0].split(",");
 
-            logger.clientLog("Node array got from Indexing server is as follows : "+nodeArray.toString());
-
             if(numberOfNodes==1 || filesize <= CHUNK_SIZE) {
 
                 logger.clientLog("Downloading file in whole! ");
@@ -181,9 +179,11 @@ public class Client extends Thread {
 
             } else {
                 /* Download based on chunks */
-                logger.clientLog("Downloading file in chunks parallely! ");
+
                 int numberOfChunks=filesize/CHUNK_SIZE;
                 int extraChunkSize=filesize-(numberOfChunks*CHUNK_SIZE);
+
+                logger.clientLog("Downloading "+numberOfChunks+" chunks parallely from "+numberOfNodes+" nodes for a "+filesize+" byte file! ");
 
                 P2PNode node=null;
                 int chunkThreshold=numberOfChunks/numberOfNodes;
@@ -200,7 +200,7 @@ public class Client extends Thread {
 
                     node=getNodeObject(nodeArray[k]);
 
-                    if(i%chunkThreshold==0 && k<numberOfNodes) {
+                    if(i!=0 && i%chunkThreshold==0 && k<numberOfNodes-1) {
                         k++;
                     }
 
@@ -212,7 +212,6 @@ public class Client extends Thread {
                 for(int i=0;i<numberOfChunks;i++) {
                     chunkDownloadThreads[i].join();
                 }
-
 
                 /* Write to output file */
 
@@ -346,7 +345,7 @@ public class Client extends Thread {
 
     private P2PNode getNodeObject(String nodeId) {
 
-        logger.clientLog("Getting object for node with ID : "+nodeId);
+        logger.clientLog("Downloading a chunk from node ID : "+nodeId);
 
         try {
             String nodeIP=nodeId.split(":")[0];
