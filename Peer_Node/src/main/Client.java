@@ -59,7 +59,7 @@ public class Client extends Thread {
             }
         } else {
 
-            String clientMode=args[0];
+            String clientMode=args[1];
 
             if(clientMode.equals("0")) {
                 logger.clientLog("Client mode in DND. So client will shut down as no action needed! But the server is still up! ");
@@ -75,7 +75,7 @@ public class Client extends Thread {
                     Thread.currentThread().interrupt();
                 }
 
-                String fileName=args[1];
+                String fileName=args[2];
                 downloadFile(fileName);
 
             }

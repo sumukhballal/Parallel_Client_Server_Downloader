@@ -27,7 +27,7 @@ public class P2P {
 
         int mode=0;
         if(args.length!=0) {
-            mode=Integer.parseInt(args[1]);
+            mode=Integer.parseInt(args[0]);
         }
 
         P2P p2p = new P2P();
