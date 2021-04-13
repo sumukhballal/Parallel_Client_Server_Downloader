@@ -213,7 +213,7 @@ public class Client extends Thread {
             }
 
             /* Check the md5 now that the file is downloaded */
-            if(checkMd5Checksum(fileName, md5Checksum)) {
+            if(checkMd5Checksum(config.getHostFilePath()+"/"+fileName, md5Checksum)) {
                 logger.clientLog("MD5 of file and file downloaded matches! ");
                 /* Let indexing server know */
                 logger.clientLog("Informing Indexing server that filename "+fileName+" has been downloaded to this node! ");
@@ -251,9 +251,19 @@ public class Client extends Thread {
         logger.clientLog("File has been downloaded! ");
     }
 
-    private boolean checkMd5Checksum(String filename, String hostMd5Checksum) {
-        return true;
+    private boolean checkMd5Checksum(String filepath, String hostMd5Checksum) {
+
+        try {
+            if (getMD5Checksum(MessageDigest.getInstance("MD5"), filepath).equals(hostMd5Checksum)) {
+                return true;
+            }
+        } catch (IOException | NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+
+        return false;
     }
+
 
     /* Inform the indexing server a file has been added/deleted from Server */
     /* Args - supports added/deleted whcih will get see if added is true else it is deleted */
@@ -384,7 +394,7 @@ public class Client extends Thread {
                     if(extraData > 0) {
                         totalBytesRead += input.read(fileBytes, offset, extraData);
                     }
-                    
+
                     logger.clientLog("Bytes read : " + totalBytesRead);
                 } else {
                     totalBytesRead+=input.read(fileBytes, 0, fileSize);
