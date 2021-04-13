@@ -111,7 +111,7 @@ public class ClientHandler extends  Thread {
             String fileDescriptions=dataInputStream.readUTF();
             logger.serverLog("File description received from client "+clientId+" : "+fileDescriptions);
 
-            if(fileDescriptions!=null && !fileDescriptions.equals("empty") || fileDescriptions.split(",").length > 0) {
+            if(fileDescriptions!=null && !fileDescriptions.equals("empty")) {
                 Node currentNode = nodes.get(clientId);
 
                 for (String fileDescription : fileDescriptions.split(",")) { ;
