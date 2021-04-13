@@ -1,0 +1,212 @@
+Started Indexing server!
+Listening on port 8000
+Accepted a request! Number of Requests: 1
+Accepted a request! Number of Requests: 2
+Accepted a request! Number of Requests: 3
+Accepted a request! Number of Requests: 4
+Accepted a request! Number of Requests: 5
+Accepted a request! Number of Requests: 6
+Accepted a request! Number of Requests: 7
+Received command register from client with ID: 127.0.0.1:8007
+Checking if client 127.0.0.1:8007 has been registered previously!
+Client 127.0.0.1:8007 has been registered! 
+Received command update_add from client with ID: 127.0.0.1:8007
+Adding a new file to  client 127.0.0.1:8007! 
+Received command register from client with ID: 127.0.0.1:8006
+Checking if client 127.0.0.1:8006 has been registered previously!
+Client 127.0.0.1:8006 has been registered! 
+Received command update_add from client with ID: 127.0.0.1:8006
+Adding a new file to  client 127.0.0.1:8006! 
+Received command register from client with ID: 127.0.0.1:8002
+Checking if client 127.0.0.1:8002 has been registered previously!
+Client 127.0.0.1:8002 has been registered! 
+Received command update_add from client with ID: 127.0.0.1:8002
+Adding a new file to  client 127.0.0.1:8002! 
+File description received from client 127.0.0.1:8007 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8007
+Added file: file_2.txt to client with ID : 127.0.0.1:8007
+Added file: file_3.txt to client with ID : 127.0.0.1:8007
+Added file: file_4.txt to client with ID : 127.0.0.1:8007
+Added file: file_5.txt to client with ID : 127.0.0.1:8007
+Added file: file_6.txt to client with ID : 127.0.0.1:8007
+Added file: file_7.txt to client with ID : 127.0.0.1:8007
+Added file: file_8.txt to client with ID : 127.0.0.1:8007
+Added file: file_9.txt to client with ID : 127.0.0.1:8007
+Added file: file_10.txt to client with ID : 127.0.0.1:8007
+Added all files to client with ID: 127.0.0.1:8007
+Received command register from client with ID: 127.0.0.1:8003
+Checking if client 127.0.0.1:8003 has been registered previously!
+Client 127.0.0.1:8003 has been registered! 
+Received command register from client with ID: 127.0.0.1:8005
+Checking if client 127.0.0.1:8005 has been registered previously!
+Client 127.0.0.1:8005 has been registered! 
+Received command update_add from client with ID: 127.0.0.1:8003
+Adding a new file to  client 127.0.0.1:8003! 
+Received command update_add from client with ID: 127.0.0.1:8005
+Adding a new file to  client 127.0.0.1:8005! 
+Received command register from client with ID: 127.0.0.1:8004
+Checking if client 127.0.0.1:8004 has been registered previously!
+Client 127.0.0.1:8004 has been registered! 
+File description received from client 127.0.0.1:8006 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8006
+Added file: file_2.txt to client with ID : 127.0.0.1:8006
+Added file: file_3.txt to client with ID : 127.0.0.1:8006
+Added file: file_4.txt to client with ID : 127.0.0.1:8006
+Added file: file_5.txt to client with ID : 127.0.0.1:8006
+Added file: file_6.txt to client with ID : 127.0.0.1:8006
+Added file: file_7.txt to client with ID : 127.0.0.1:8006
+Added file: file_8.txt to client with ID : 127.0.0.1:8006
+Added file: file_9.txt to client with ID : 127.0.0.1:8006
+Added file: file_10.txt to client with ID : 127.0.0.1:8006
+Added all files to client with ID: 127.0.0.1:8006
+Received command update_add from client with ID: 127.0.0.1:8004
+Adding a new file to  client 127.0.0.1:8004! 
+Received command register from client with ID: 127.0.0.1:8001
+Checking if client 127.0.0.1:8001 has been registered previously!
+Client 127.0.0.1:8001 has been registered! 
+Received command update_add from client with ID: 127.0.0.1:8001
+Adding a new file to  client 127.0.0.1:8001! 
+File description received from client 127.0.0.1:8002 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8002
+Added file: file_2.txt to client with ID : 127.0.0.1:8002
+Added file: file_3.txt to client with ID : 127.0.0.1:8002
+Added file: file_4.txt to client with ID : 127.0.0.1:8002
+Added file: file_5.txt to client with ID : 127.0.0.1:8002
+Added file: file_6.txt to client with ID : 127.0.0.1:8002
+Added file: file_7.txt to client with ID : 127.0.0.1:8002
+Added file: file_8.txt to client with ID : 127.0.0.1:8002
+Added file: file_9.txt to client with ID : 127.0.0.1:8002
+Added file: file_10.txt to client with ID : 127.0.0.1:8002
+Added all files to client with ID: 127.0.0.1:8002
+File description received from client 127.0.0.1:8005 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8005
+Added file: file_2.txt to client with ID : 127.0.0.1:8005
+Added file: file_3.txt to client with ID : 127.0.0.1:8005
+Added file: file_4.txt to client with ID : 127.0.0.1:8005
+Added file: file_5.txt to client with ID : 127.0.0.1:8005
+Added file: file_6.txt to client with ID : 127.0.0.1:8005
+Added file: file_7.txt to client with ID : 127.0.0.1:8005
+Added file: file_8.txt to client with ID : 127.0.0.1:8005
+Added file: file_9.txt to client with ID : 127.0.0.1:8005
+Added file: file_10.txt to client with ID : 127.0.0.1:8005
+Added all files to client with ID: 127.0.0.1:8005
+File description received from client 127.0.0.1:8003 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8003
+Added file: file_2.txt to client with ID : 127.0.0.1:8003
+Added file: file_3.txt to client with ID : 127.0.0.1:8003
+Added file: file_4.txt to client with ID : 127.0.0.1:8003
+Added file: file_5.txt to client with ID : 127.0.0.1:8003
+Added file: file_6.txt to client with ID : 127.0.0.1:8003
+Added file: file_7.txt to client with ID : 127.0.0.1:8003
+Added file: file_8.txt to client with ID : 127.0.0.1:8003
+Added file: file_9.txt to client with ID : 127.0.0.1:8003
+Added file: file_10.txt to client with ID : 127.0.0.1:8003
+Added all files to client with ID: 127.0.0.1:8003
+File description received from client 127.0.0.1:8001 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8001
+Added file: file_2.txt to client with ID : 127.0.0.1:8001
+Added file: file_3.txt to client with ID : 127.0.0.1:8001
+Added file: file_4.txt to client with ID : 127.0.0.1:8001
+Added file: file_5.txt to client with ID : 127.0.0.1:8001
+Added file: file_6.txt to client with ID : 127.0.0.1:8001
+Added file: file_7.txt to client with ID : 127.0.0.1:8001
+Added file: file_8.txt to client with ID : 127.0.0.1:8001
+Added file: file_9.txt to client with ID : 127.0.0.1:8001
+Added file: file_10.txt to client with ID : 127.0.0.1:8001
+Added all files to client with ID: 127.0.0.1:8001
+File description received from client 127.0.0.1:8004 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698,file_10.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8004
+Added file: file_2.txt to client with ID : 127.0.0.1:8004
+Added file: file_3.txt to client with ID : 127.0.0.1:8004
+Added file: file_4.txt to client with ID : 127.0.0.1:8004
+Added file: file_5.txt to client with ID : 127.0.0.1:8004
+Added file: file_6.txt to client with ID : 127.0.0.1:8004
+Added file: file_7.txt to client with ID : 127.0.0.1:8004
+Added file: file_8.txt to client with ID : 127.0.0.1:8004
+Added file: file_9.txt to client with ID : 127.0.0.1:8004
+Added file: file_10.txt to client with ID : 127.0.0.1:8004
+Added all files to client with ID: 127.0.0.1:8004
+Accepted a request! Number of Requests: 8
+Received command register from client with ID: 127.0.0.1:8008
+Checking if client 127.0.0.1:8008 has been registered previously!
+Client 127.0.0.1:8008 has been registered! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : empty
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_1.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_1.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_1.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_2.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_2.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_2.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_3.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_3.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_3.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_4.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_4.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_4.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_5.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_5.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_5.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_6.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_6.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_6.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_7.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_7.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_7.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_8.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_8.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_8.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file_9.txt on all nodes! 
+Received command update_add from client with ID: 127.0.0.1:8008
+Adding a new file to  client 127.0.0.1:8008! 
+File description received from client 127.0.0.1:8008 : file_9.txt:1000000:879f4bba57ed37c9ec5e5aedf9864698
+Added file: file_9.txt to client with ID : 127.0.0.1:8008
+Added all files to client with ID: 127.0.0.1:8008
+Received command query from client with ID: 127.0.0.1:8008
+Querying for a file on all nodes!
+Querying for a file : file10.txt on all nodes! 
+No node found matching the query for filename : file10.txt

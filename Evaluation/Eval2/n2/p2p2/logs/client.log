@@ -1,0 +1,149 @@
+ 
+-----------------------------------------------
+Querying the index Server for file : file_1.txt
+avg_response_time: It took 45132497 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_1.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_1.txt downloaded! 
+
+avg_download_time: It took 63 MilliSeconds to get download a file file_1.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_1.txt has been downloaded to this node! 
+File file_1.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_2.txt
+avg_response_time: It took 41405356 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_2.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_2.txt downloaded! 
+
+avg_download_time: It took 62 MilliSeconds to get download a file file_2.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_2.txt has been downloaded to this node! 
+File file_2.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_3.txt
+avg_response_time: It took 42543187 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_3.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_3.txt downloaded! 
+
+avg_download_time: It took 131 MilliSeconds to get download a file file_3.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_3.txt has been downloaded to this node! 
+File file_3.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_4.txt
+avg_response_time: It took 42523934 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_4.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_4.txt downloaded! 
+
+avg_download_time: It took 58 MilliSeconds to get download a file file_4.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_4.txt has been downloaded to this node! 
+File file_4.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_5.txt
+avg_response_time: It took 42479204 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_5.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_5.txt downloaded! 
+
+avg_download_time: It took 70 MilliSeconds to get download a file file_5.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_5.txt has been downloaded to this node! 
+File file_5.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_6.txt
+avg_response_time: It took 43335824 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_6.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_6.txt downloaded! 
+
+avg_download_time: It took 78 MilliSeconds to get download a file file_6.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_6.txt has been downloaded to this node! 
+File file_6.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_7.txt
+avg_response_time: It took 42872252 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_7.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_7.txt downloaded! 
+
+avg_download_time: It took 59 MilliSeconds to get download a file file_7.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_7.txt has been downloaded to this node! 
+File file_7.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_8.txt
+avg_response_time: It took 42989847 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_8.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_8.txt downloaded! 
+
+avg_download_time: It took 37 MilliSeconds to get download a file file_8.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_8.txt has been downloaded to this node! 
+File file_8.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_9.txt
+avg_response_time: It took 43200878 Nanoseconds to get a response from the Indexing Server!
+Downloading file in whole! 
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file  : file_9.txt to directory ./files/ of size 1000000 bytes!
+Bytes read : 1000000
+
+ File file_9.txt downloaded! 
+
+avg_download_time: It took 71 MilliSeconds to get download a file file_9.txt of size 1000000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_9.txt has been downloaded to this node! 
+File file_9.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file10.txt
+avg_response_time: It took 40941748 Nanoseconds to get a response from the Indexing Server!
+Client is unable to download a file because indexing server threw an error during query! 

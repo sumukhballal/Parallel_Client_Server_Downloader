@@ -1,0 +1,2822 @@
+ 
+-----------------------------------------------
+Querying the index Server for file : file_1.txt
+avg_response_time: It took 44760742 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 36 of size : 10000
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_1.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 4221 Milli Seconds to get download a file file_1.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_1.txt has been downloaded to this node! 
+File file_1.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_2.txt
+avg_response_time: It took 41170435 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_2.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 3295 Milli Seconds to get download a file file_2.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_2.txt has been downloaded to this node! 
+File file_2.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_3.txt
+avg_response_time: It took 43514606 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 0 of size : 10000
+Downloading file chunk : 1 of size : 10000
+Downloading file chunk : 2 of size : 10000
+Downloading file chunk : 3 of size : 10000
+Downloading file chunk : 4 of size : 10000
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 99 of size : 10000
+Downloading file chunk : 8 of size : 10000
+Downloading file chunk : 6 of size : 10000
+Downloading file chunk : 7 of size : 10000
+Downloading file chunk : 9 of size : 10000
+Downloading file chunk : 10 of size : 10000
+Downloading file chunk : 11 of size : 10000
+Downloading file chunk : 12 of size : 10000
+Downloading file chunk : 13 of size : 10000
+Downloading file chunk : 14 of size : 10000
+Downloading file chunk : 15 of size : 10000
+Downloading file chunk : 16 of size : 10000
+Downloading file chunk : 17 of size : 10000
+Downloading file chunk : 18 of size : 10000
+Downloading file chunk : 19 of size : 10000
+Downloading file chunk : 20 of size : 10000
+Downloading file chunk : 21 of size : 10000
+Downloading file chunk : 22 of size : 10000
+Downloading file chunk : 23 of size : 10000
+Downloading file chunk : 24 of size : 10000
+Downloading file chunk : 25 of size : 10000
+Downloading file chunk : 26 of size : 10000
+Downloading file chunk : 27 of size : 10000
+Downloading file chunk : 28 of size : 10000
+Downloading file chunk : 29 of size : 10000
+Downloading file chunk : 30 of size : 10000
+Downloading file chunk : 31 of size : 10000
+Downloading file chunk : 32 of size : 10000
+Downloading file chunk : 33 of size : 10000
+Downloading file chunk : 34 of size : 10000
+Downloading file chunk : 35 of size : 10000
+Downloading file chunk : 36 of size : 10000
+Downloading file chunk : 37 of size : 10000
+Downloading file chunk : 38 of size : 10000
+Downloading file chunk : 39 of size : 10000
+Downloading file chunk : 40 of size : 10000
+Downloading file chunk : 41 of size : 10000
+Downloading file chunk : 42 of size : 10000
+Downloading file chunk : 43 of size : 10000
+Downloading file chunk : 44 of size : 10000
+Downloading file chunk : 45 of size : 10000
+Downloading file chunk : 46 of size : 10000
+Downloading file chunk : 47 of size : 10000
+Downloading file chunk : 48 of size : 10000
+Downloading file chunk : 49 of size : 10000
+Downloading file chunk : 50 of size : 10000
+Downloading file chunk : 51 of size : 10000
+Downloading file chunk : 52 of size : 10000
+Downloading file chunk : 53 of size : 10000
+Downloading file chunk : 54 of size : 10000
+Downloading file chunk : 55 of size : 10000
+Downloading file chunk : 56 of size : 10000
+Downloading file chunk : 57 of size : 10000
+Downloading file chunk : 58 of size : 10000
+Downloading file chunk : 59 of size : 10000
+Downloading file chunk : 60 of size : 10000
+Downloading file chunk : 61 of size : 10000
+Downloading file chunk : 62 of size : 10000
+Downloading file chunk : 63 of size : 10000
+Downloading file chunk : 64 of size : 10000
+Downloading file chunk : 65 of size : 10000
+Downloading file chunk : 66 of size : 10000
+Downloading file chunk : 67 of size : 10000
+Downloading file chunk : 68 of size : 10000
+Downloading file chunk : 69 of size : 10000
+Downloading file chunk : 70 of size : 10000
+Downloading file chunk : 71 of size : 10000
+Downloading file chunk : 72 of size : 10000
+Downloading file chunk : 73 of size : 10000
+Downloading file chunk : 74 of size : 10000
+Downloading file chunk : 75 of size : 10000
+Downloading file chunk : 76 of size : 10000
+Downloading file chunk : 77 of size : 10000
+Downloading file chunk : 78 of size : 10000
+Downloading file chunk : 79 of size : 10000
+Downloading file chunk : 80 of size : 10000
+Downloading file chunk : 81 of size : 10000
+Downloading file chunk : 82 of size : 10000
+Downloading file chunk : 83 of size : 10000
+Downloading file chunk : 84 of size : 10000
+Downloading file chunk : 85 of size : 10000
+Downloading file chunk : 86 of size : 10000
+Downloading file chunk : 87 of size : 10000
+Downloading file chunk : 88 of size : 10000
+Downloading file chunk : 89 of size : 10000
+Downloading file chunk : 90 of size : 10000
+Downloading file chunk : 91 of size : 10000
+Downloading file chunk : 92 of size : 10000
+Downloading file chunk : 93 of size : 10000
+Downloading file chunk : 94 of size : 10000
+Downloading file chunk : 95 of size : 10000
+Downloading file chunk : 96 of size : 10000
+Downloading file chunk : 97 of size : 10000
+Downloading file chunk : 98 of size : 10000
+File chunks have been downloaded!
+Recreating file file_3.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 3667 Milli Seconds to get download a file file_3.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_3.txt has been downloaded to this node! 
+File file_3.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_4.txt
+avg_response_time: It took 43503974 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 99 of size : 10000
+Downloading file chunk : 98 of size : 10000
+File chunks have been downloaded!
+Recreating file file_4.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 3475 Milli Seconds to get download a file file_4.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_4.txt has been downloaded to this node! 
+File file_4.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_5.txt
+avg_response_time: It took 41360265 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_5.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 3309 Milli Seconds to get download a file file_5.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_5.txt has been downloaded to this node! 
+File file_5.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_6.txt
+avg_response_time: It took 40989473 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading file chunk : 92 of size : 10000
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_6.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 2869 Milli Seconds to get download a file file_6.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_6.txt has been downloaded to this node! 
+File file_6.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_7.txt
+avg_response_time: It took 43510534 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading file chunk : 89 of size : 10000
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_7.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 3216 Milli Seconds to get download a file file_7.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_7.txt has been downloaded to this node! 
+File file_7.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_8.txt
+avg_response_time: It took 43514703 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading file chunk : 83 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_8.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 1924 Milli Seconds to get download a file file_8.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_8.txt has been downloaded to this node! 
+File file_8.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file_9.txt
+avg_response_time: It took 47510351 Nanoseconds to get a response from the Indexing Server!
+Downloading 100 chunks parallely from 15 nodes for a 1000000 byte file! 
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 0 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 1 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 2 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 3 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 4 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8009
+Downloading file chunk : 5 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 6 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 7 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 8 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 9 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 10 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8007
+Downloading file chunk : 11 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 12 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 13 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 14 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 15 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 16 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8008
+Downloading file chunk : 17 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 18 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 19 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 20 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 21 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 22 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8005
+Downloading file chunk : 23 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 24 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 25 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 26 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 27 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 28 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8006
+Downloading file chunk : 29 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 30 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 31 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 32 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 33 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 34 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8014
+Downloading file chunk : 35 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 36 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 37 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 38 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 39 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 40 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8003
+Downloading file chunk : 41 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 42 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 43 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 44 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 45 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 46 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8015
+Downloading file chunk : 47 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 48 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 49 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 50 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 51 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 52 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8004
+Downloading file chunk : 53 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 54 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 55 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 56 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 57 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 58 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8012
+Downloading file chunk : 59 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 60 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 61 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 62 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 63 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 64 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8001
+Downloading file chunk : 65 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 66 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 67 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 68 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 69 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 70 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8002
+Downloading file chunk : 71 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 72 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 73 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 74 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 75 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 76 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8013
+Downloading file chunk : 77 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 78 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 79 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 83 of size : 10000
+Downloading file chunk : 80 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8010
+Downloading file chunk : 81 of size : 10000
+Downloading file chunk : 82 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 84 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 85 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 86 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 87 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 88 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 89 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 90 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 91 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 92 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 93 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 94 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 95 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 96 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 97 of size : 10000
+Downloading a chunk from node ID : 127.0.0.1:8011
+Downloading file chunk : 98 of size : 10000
+Downloading file chunk : 99 of size : 10000
+File chunks have been downloaded!
+Recreating file file_9.txt from chunks! 
+Writing chunk : 0
+Writing chunk : 1
+Writing chunk : 2
+Writing chunk : 3
+Writing chunk : 4
+Writing chunk : 5
+Writing chunk : 6
+Writing chunk : 7
+Writing chunk : 8
+Writing chunk : 9
+Writing chunk : 10
+Writing chunk : 11
+Writing chunk : 12
+Writing chunk : 13
+Writing chunk : 14
+Writing chunk : 15
+Writing chunk : 16
+Writing chunk : 17
+Writing chunk : 18
+Writing chunk : 19
+Writing chunk : 20
+Writing chunk : 21
+Writing chunk : 22
+Writing chunk : 23
+Writing chunk : 24
+Writing chunk : 25
+Writing chunk : 26
+Writing chunk : 27
+Writing chunk : 28
+Writing chunk : 29
+Writing chunk : 30
+Writing chunk : 31
+Writing chunk : 32
+Writing chunk : 33
+Writing chunk : 34
+Writing chunk : 35
+Writing chunk : 36
+Writing chunk : 37
+Writing chunk : 38
+Writing chunk : 39
+Writing chunk : 40
+Writing chunk : 41
+Writing chunk : 42
+Writing chunk : 43
+Writing chunk : 44
+Writing chunk : 45
+Writing chunk : 46
+Writing chunk : 47
+Writing chunk : 48
+Writing chunk : 49
+Writing chunk : 50
+Writing chunk : 51
+Writing chunk : 52
+Writing chunk : 53
+Writing chunk : 54
+Writing chunk : 55
+Writing chunk : 56
+Writing chunk : 57
+Writing chunk : 58
+Writing chunk : 59
+Writing chunk : 60
+Writing chunk : 61
+Writing chunk : 62
+Writing chunk : 63
+Writing chunk : 64
+Writing chunk : 65
+Writing chunk : 66
+Writing chunk : 67
+Writing chunk : 68
+Writing chunk : 69
+Writing chunk : 70
+Writing chunk : 71
+Writing chunk : 72
+Writing chunk : 73
+Writing chunk : 74
+Writing chunk : 75
+Writing chunk : 76
+Writing chunk : 77
+Writing chunk : 78
+Writing chunk : 79
+Writing chunk : 80
+Writing chunk : 81
+Writing chunk : 82
+Writing chunk : 83
+Writing chunk : 84
+Writing chunk : 85
+Writing chunk : 86
+Writing chunk : 87
+Writing chunk : 88
+Writing chunk : 89
+Writing chunk : 90
+Writing chunk : 91
+Writing chunk : 92
+Writing chunk : 93
+Writing chunk : 94
+Writing chunk : 95
+Writing chunk : 96
+Writing chunk : 97
+Writing chunk : 98
+Writing chunk : 99
+File has been downloaded! 
+avg_download_time: It took 2568 Milli Seconds to get download a file file_9.txt of size 1000000!
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_9.txt has been downloaded to this node! 
+File file_9.txt has been added to the indexing server! 
+-----------------------------------------------
+ 
+-----------------------------------------------
+Querying the index Server for file : file10.txt
+avg_response_time: It took 43487506 Nanoseconds to get a response from the Indexing Server!
+Client is unable to download a file because indexing server threw an error during query! 

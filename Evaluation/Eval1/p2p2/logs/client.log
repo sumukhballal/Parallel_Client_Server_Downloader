@@ -1,0 +1,14 @@
+Querying the index Server for file : file_3.txt
+avg_response_time: It took 45966573 Nanoseconds to get a response from the Indexing Server!
+Node array got from Indexing server is as follows : [Ljava.lang.String;@3baf0765
+Downloading file in whole! 
+Getting object for node with ID : 127.0.0.1:8003
+Downloading file  : file_3.txt to directory ./files/ of size 128000 bytes!
+Bytes read : 128000
+
+ File file_3.txt downloaded! 
+
+avg_download_time: It took 2332595 Nanoseconds to get download a file file_3.txt of size 128000 !
+MD5 of file and file downloaded matches! 
+Informing Indexing server that filename file_3.txt has been downloaded to this node! 
+File file_3.txt has been added to the indexing server! 

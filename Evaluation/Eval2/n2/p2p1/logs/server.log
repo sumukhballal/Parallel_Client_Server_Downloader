@@ -1,0 +1,60 @@
+Starting up the P2P Node with ID : localhost:8001
+Connected to the Indexing Server! 
+Successfully registered with Indexing server 
+All files have been regsitered with the Indexing server! 
+P2P Node started up!
+Listening on 8001
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_1.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_2.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_3.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_4.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_5.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_6.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_7.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_8.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_9.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------

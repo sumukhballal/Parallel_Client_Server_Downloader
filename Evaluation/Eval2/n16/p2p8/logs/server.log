@@ -1,0 +1,492 @@
+Starting up the P2P Node with ID : localhost:8008
+Connected to the Indexing Server! 
+Successfully registered with Indexing server 
+All files have been regsitered with the Indexing server! 
+P2P Node started up!
+Listening on 8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 4
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 5
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 6
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_1.txt
+Offset: 13
+Chunk Size : 10000
+Uploaded file : file_1.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_1.txt
+Offset: 14
+Chunk Size : 10000
+Uploaded file : file_1.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_1.txt
+Offset: 15
+Chunk Size : 10000
+Uploaded file : file_1.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_1.txt
+Offset: 16
+Chunk Size : 10000
+Uploaded file : file_1.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request Type: chunk
+Filename: file_1.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_1.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_1.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_1.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_2.txt
+Offset: 13
+Chunk Size : 10000
+Uploaded file : file_2.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Download request Type: chunk
+Filename: file_2.txt
+Offset: 14
+Chunk Size : 10000
+Uploaded file : file_2.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_2.txt
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+Offset: 15
+Chunk Size : 10000
+Uploaded file : file_2.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_2.txt
+Offset: 16
+Chunk Size : 10000
+Uploaded file : file_2.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Download request Type: chunk
+Filename: file_2.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_2.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_2.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_2.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 4
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 5
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 6
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_3.txt
+Offset: 15
+Chunk Size : 10000
+Uploaded file : file_3.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_3.txt
+Offset: 13
+Chunk Size : 10000
+Download request Type: chunk
+Filename: file_3.txt
+Offset: 14
+Chunk Size : 10000
+Download request Type: chunk
+Filename: file_3.txt
+Offset: 16
+Chunk Size : 10000
+--------------------------------------------------------------
+Uploaded file : file_3.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+Uploaded file : file_3.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+Uploaded file : file_3.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_3.txt
+Offset: 18
+Download request Type: chunk
+Filename: file_3.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_3.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Chunk Size : 10000
+Uploaded file : file_3.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_4.txt
+Offset: 13
+Chunk Size : 10000
+Uploaded file : file_4.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_4.txt
+Offset: 14
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Uploaded file : file_4.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Filename: file_4.txt
+Offset: 15
+Chunk Size : 10000
+Uploaded file : file_4.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_4.txt
+Offset: 16
+Chunk Size : 10000
+Uploaded file : file_4.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_4.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_4.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_4.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_4.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_5.txt
+Offset: 13
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Uploaded file : file_5.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Filename: file_5.txt
+Offset: 14
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_5.txt
+Offset: 15
+Uploaded file : file_5.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Chunk Size : 10000
+Uploaded file : file_5.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_5.txt
+Offset: 16
+Chunk Size : 10000
+Uploaded file : file_5.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_5.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_5.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_5.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_5.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_6.txt
+Offset: 13
+Chunk Size : 10000
+Uploaded file : file_6.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_6.txt
+Offset: 15
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+Download request Type: chunk
+Filename: file_6.txt
+Offset: 14
+Chunk Size : 10000
+Uploaded file : file_6.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Uploaded file : file_6.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_6.txt
+Offset: 16
+Chunk Size : 10000
+Uploaded file : file_6.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_6.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_6.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_6.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_6.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_7.txt
+Offset: 13
+Chunk Size : 10000
+Uploaded file : file_7.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_7.txt
+Offset: 14
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+Uploaded file : file_7.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_7.txt
+Offset: 15
+Chunk Size : 10000
+Uploaded file : file_7.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_7.txt
+Offset: 16
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_7.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_7.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Uploaded file : file_7.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_7.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_7.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_8.txt
+Offset: 13
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_8.txt
+Offset: 14
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 4
+Uploaded file : file_8.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_8.txt
+Offset: 15
+Chunk Size : 10000
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_8.txt
+Offset: 16
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 4
+Uploaded file : file_8.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Uploaded file : file_8.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_8.txt
+Uploaded file : file_8.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_8.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_8.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_8.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 1
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_9.txt
+Offset: 13
+Chunk Size : 10000
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 3
+Uploaded file : file_9.txt Chunk Number : 13 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_9.txt
+Offset: 14
+Chunk Size : 10000
+Uploaded file : file_9.txt Chunk Number : 14 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_9.txt
+Offset: 15
+Chunk Size : 10000
+Uploaded file : file_9.txt Chunk Number : 15 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_9.txt
+Offset: 16
+Chunk Size : 10000
+Uploaded file : file_9.txt Chunk Number : 16 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+Accepted Client with ID: 127.0.0.1:8008 ! Total clients! 2
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_9.txt
+Offset: 17
+Chunk Size : 10000
+Uploaded file : file_9.txt Chunk Number : 17 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8008
+Download request Type: chunk
+Filename: file_9.txt
+Offset: 18
+Chunk Size : 10000
+Uploaded file : file_9.txt Chunk Number : 18 of Size : 10000 to client with ID: 127.0.0.1:8008
+--------------------------------------------------------------

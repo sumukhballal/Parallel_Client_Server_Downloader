@@ -2,37 +2,97 @@
 
 mkdir -p ../Evaluation/Eval2/
 
-mkdir -p ../Evaluation/Eval2/Test_1 # where n=2
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_1" 1 8004
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_1" 2 8005
-
-mkdir -p ../Evaluation/Eval2/Test_2
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_2" 1 8006
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_2" 2 8007
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_2" 3 8008
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_2" 4 8009
-
-mkdir -p ../Evaluation/Eval2/Test_3
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 1 8010
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 2 8011
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 3 8012
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 4 8013
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 5 8014
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 6 8015
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 7 8016
-./replicate_p2p_folders.sh "../Peer Node" "../Evaluation/Eval2/Test_3" 8 8017
+mkdir -p ../Evaluation/Eval2/n2 # where n=2
+mkdir -p ../Evaluation/Eval2/n4 # where n=2
+mkdir -p ../Evaluation/Eval2/n8 # where n=2
+mkdir -p ../Evaluation/Eval2/n16 # where n=2
 
 
 
-./replicate_index_server_folder.sh "../Indexing Server" "../Evaluation/Eval2/"
+./replicate_index_server_folder.sh "../Indexing_Server" "../Evaluation/Eval2/n2"
+./replicate_index_server_folder.sh "../Indexing_Server" "../Evaluation/Eval2/n4"
+./replicate_index_server_folder.sh "../Indexing_Server" "../Evaluation/Eval2/n8"
+./replicate_index_server_folder.sh "../Indexing_Server" "../Evaluation/Eval2/n16"
 
-./compile_all.sh "../Evaluation/Eval2/Test_1"
-./compile_all.sh "../Evaluation/Eval2/Test_2"
-./compile_all.sh "../Evaluation/Eval2/Test_3"
-./compile_all.sh "../Evaluation/Eval2/"
+dd if=/dev/zero of="../Evaluation/Eval2/file.txt"  bs=1000000  count=1
+
+port=8001
+for ((i = 1 ; i <= 2 ; i++));
+do
+	./replicate_p2p_folders_2.sh "../Peer_Node" "../Evaluation/Eval2/n2" $i $port
+	
+	for ((j = 1; j <= 10; j++));
+	do
+		cp -r ../Evaluation/Eval2/file.txt ../Evaluation/Eval2/n2/p2p$i/files/file_$j.txt
+	done
+	port=$(($port+1))
+	index=$(($index+1))
+done
+
+rm -rf ../Evaluation/Eval2/n2/p2p2/files/*
+
+port=8001
+for ((i = 1 ; i <= 4 ; i++));
+do
+	./replicate_p2p_folders_2.sh "../Peer_Node" "../Evaluation/Eval2/n4" $i $port
+	for ((j = 1; j <= 10; j++));
+	do
+	    cp -r ../Evaluation/Eval2/file.txt ../Evaluation/Eval2/n4/p2p$i/files/file_$j.txt
+	done
+       	port=$(($port+1))
+	index=$(($index+1))
+done
+
+rm -rf ../Evaluation/Eval2/n4/p2p4/files/*
 
 
-cp -r ./eval2_run.sh ../Evaluation/Eval2/
-cp -r ./eval2_1_run.sh ../Evaluation/Eval2/Test_1
-cp -r ./eval2_2_run.sh ../Evaluation/Eval2/Test_2
-cp -r ./eval2_3_run.sh ../Evaluation/Eval2/Test_3
+port=8001
+for ((i = 1 ; i <= 8 ; i++));
+do
+        ./replicate_p2p_folders_2.sh "../Peer_Node" "../Evaluation/Eval2/n8" $i $port
+        for ((j = 1; j <= 10; j++));
+        do
+            cp -r ../Evaluation/Eval2/file.txt ../Evaluation/Eval2/n8/p2p$i/files/file_$j.txt
+        done
+
+	port=$(($port+1))
+        index=$(($index+1))
+done
+
+rm -rf ../Evaluation/Eval2/n8/p2p8/files/*
+
+
+port=8001
+for ((i = 1 ; i <= 16 ; i++));
+do
+        ./replicate_p2p_folders_2.sh "../Peer_Node" "../Evaluation/Eval2/n16" $i $port
+        for ((j = 1; j <= 10; j++));
+        do
+            cp -r ../Evaluation/Eval2/file.txt ../Evaluation/Eval2/n16/p2p$i/files/file_$j.txt
+        done
+
+	port=$(($port+1))
+        index=$(($index+1))
+done
+
+rm -rf ../Evaluation/Eval2/n16/p2p16/files/*
+
+# Compile all 
+
+./compile_all.sh "../Evaluation/Eval2/n2"
+./compile_all.sh "../Evaluation/Eval2/n4"
+./compile_all.sh "../Evaluation/Eval2/n8"
+./compile_all.sh "../Evaluation/Eval2/n16"
+
+
+
+cp -r ./eval2_1_run.sh ../Evaluation/Eval2/n2
+cp -r ./eval2_2_run.sh ../Evaluation/Eval2/n4
+cp -r ./eval2_3_run.sh ../Evaluation/Eval2/n8
+cp -r ./eval2_4_run.sh ../Evaluation/Eval2/n16
+
+cp -r ./calculate_avg.sh ../Evaluation/Eval2/n2
+cp -r ./calculate_avg.sh ../Evaluation/Eval2/n4
+cp -r ./calculate_avg.sh ../Evaluation/Eval2/n8
+cp -r ./calculate_avg.sh ../Evaluation/Eval2/n16
+

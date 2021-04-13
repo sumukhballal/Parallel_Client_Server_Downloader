@@ -1,0 +1,18 @@
+Starting up the P2P Node with ID : localhost:8003
+Connected to the Indexing Server! 
+Successfully registered with Indexing server 
+All files have been regsitered with the Indexing server! 
+P2P Node started up!
+Listening on 8003
+Starting up the P2P Node with ID : localhost:8003
+Connected to the Indexing Server! 
+Successfully registered with Indexing server 
+All files have been regsitered with the Indexing server! 
+P2P Node started up!
+Listening on 8003
+Accepted Client with ID: 127.0.0.1:8002 ! Total clients! 1
+--------------------------------------------------------------
+Download request received from client with ID: 127.0.0.1:8002
+Download request Type: whole
+Uploaded file file_3.txt to client with ID: 127.0.0.1:8002
+--------------------------------------------------------------
