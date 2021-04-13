@@ -7,14 +7,13 @@ import java.security.DigestInputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Client extends Thread {
 
 
     /* Fixed Chunk size of 64KB */
-    private final int CHUNK_SIZE=64000;
+    private final int CHUNK_SIZE=10000;
 
     IndexingServer indexingServer;
     Config config;
@@ -40,7 +39,7 @@ public class Client extends Thread {
 
         /* Based on the args we can run this using scanner or not */
 
-        if(args.length==0) {
+        if(args.length==1) {
             Scanner scanner = new Scanner(System.in);
 
             while (true) {
@@ -97,6 +96,9 @@ public class Client extends Thread {
     *  */
     private void downloadFile(String fileName) {
         try {
+
+            logger.clientLog(" ");
+            logger.clientLog("-----------------------------------------------");
             DataOutputStream output=indexingServer.getDataOutputStream();
             DataInputStream input=indexingServer.getDataInputStream();
 
@@ -130,6 +132,7 @@ public class Client extends Thread {
             /* Download the file from the node */
             downloadRequest(nodeListWithFileDescription, fileName);
 
+            logger.clientLog("-----------------------------------------------");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -192,13 +195,14 @@ public class Client extends Thread {
                 HashMap<Integer, FileChunk> fileChunkHashMap=new HashMap<Integer, FileChunk>();
                 for(int i=0;i<numberOfChunks;i++) {
 
-                    if(i%chunkThreshold==0 && k<numberOfNodes) {
-                        node=getNodeObject(nodeArray[k]);
-                        k++;
-                    }
-
                     if(i==numberOfChunks-1)
                         chunkSize=chunkSize+extraChunkSize;
+
+                    node=getNodeObject(nodeArray[k]);
+
+                    if(i%chunkThreshold==0 && k<numberOfNodes) {
+                        k++;
+                    }
 
                     chunkDownloadThreads[i]=new Thread(new DownloadHandler(node, fileName, i, chunkSize, fileChunkHashMap , config, logger));
                     chunkDownloadThreads[i].start();
