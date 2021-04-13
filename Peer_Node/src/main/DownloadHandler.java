@@ -68,7 +68,7 @@ public class DownloadHandler extends Thread {
 
         try {
             int bytesRead = input.read(fileBytes, 0, fileBytes.length);
-            FileChunk fileChunk = new FileChunk(fileName, fileBytes, chunkId, chunkSize);
+            FileChunk fileChunk = new FileChunk(fileName, fileBytes, chunkSize, chunkId);
             fileChunkHashMap.put(chunkId, fileChunk);
         } catch (IOException e) {
             e.printStackTrace();
