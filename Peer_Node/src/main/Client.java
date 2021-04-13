@@ -278,19 +278,10 @@ public class Client extends Thread {
         DataOutputStream indexingServerOutput = indexingServer.getDataOutputStream();
         DataInputStream indexingServerInput = indexingServer.getDataInputStream();
 
-
         try {
             String operation="update_add";
             if (!added)
                 operation="update_delete";
-
-            indexingServerOutput.writeUTF(operation);
-            String response=indexingServerInput.readUTF();
-
-            if(response.equals("error")) {
-                logger.clientLog("Not possible to inform the indexing server! Retry! ");
-                return;
-            }
 
             File file = new File(config.getHostFilePath()+"/"+fileName);
             StringBuilder resultFile=new StringBuilder();
@@ -304,15 +295,16 @@ public class Client extends Thread {
             /* Send MD5 checksum */
             resultFile.append(md5checkSum);
 
+            indexingServerOutput.writeUTF(operation);
+
             /* Write to output */
             indexingServerOutput.writeUTF(resultFile.toString());
-            response=indexingServerInput.readUTF();
+            String response=indexingServerInput.readUTF();
 
             if(response.equals("error")) {
                 logger.clientLog("Not possible to inform the indexing server! Retry! ");
                 return;
             }
-
             /* File has been added */
             logger.clientLog("File "+fileName+" has been added to the indexing server! ");
 
