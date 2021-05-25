@@ -122,7 +122,7 @@ public class Client extends Thread {
             /* Received a response so calculate response time here */
             long elapsedTime=System.nanoTime() - startTime;
 
-            logger.clientLog("avg_response_time: It took "+elapsedTime+" Nanoseconds to get a response from the Indexing Server!");
+            logger.clientLog("avg_response_time: It took "+elapsedTime/1000000+" Milliseconds to get a response from the Indexing Server!");
 
             if(response.equals("error")) {
                 logger.clientLog("Client is unable to download a file because indexing server threw an error during query! ");
